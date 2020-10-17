@@ -1,2 +1,5 @@
-# teaching-ironhack-data-madrid-2020
-Data Analytics Bootcamp at IronHack www.ironhack.com
+# Data Analytics Bootcamp at IronHack
+
+Teachers:
+ * Ignacio Tamarit
+ * Manuel López Sheriff
