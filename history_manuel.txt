@@ -1,0 +1,1000 @@
+ 1073  /usr/bin/AutoFirma
+ 1074  nano /usr/bin/AutoFirma 
+ 1075  sudo dpkg -i AutoFirma_1_6_5.deb 
+ 1076  java -version
+ 1077  cd
+ 1078  cd Downloads/
+ 1079  ls
+ 1080  sudo tar
+ 1081  sudo tar zxvf jdk-14.0.1_linux-x64_bin.deb 
+ 1082  sudo tar -zxvf jdk-14.0.1_linux-x64_bin.deb 
+ 1083  ls
+ 1084  rm jdk-14.0.1_linux-x64_bin.deb 
+ 1085  ls
+ 1086  sudo mkdir -p /usr/lib/jvm
+ 1087  sudo tar zxvf jdk-14.0.1_linux-x64_bin.tar.gz -C /usr/bin/jvm
+ 1088  cd /usr/lib/jvm
+ 1089  ls
+ 1090  cd
+ 1091  cd Downloads/
+ 1092  sudo tar zxvf jdk-14.0.1_linux-x64_bin.tar.gz -C /usr/lib/jvm
+ 1093  sudo update-alternatives --install "/usr/bin/java" "java" "usr/bin/jvm/jdk-14.0.1/bin/java" 1
+ 1094  sudo update-alternatives --install "/usr/bin/java" "java" "/usr/bin/jvm/jdk-14.0.1/bin/java" 1
+ 1095  sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_14.0.1/bin/java" 1
+ 1096  sudo update-alternatives --set java /usr/lib/jvm/jdk-14.0.1/bin/java
+ 1097  sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk_14.0.1/bin/java" 1
+ 1098  sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-14.0.1/bin/java" 1
+ 1099  java -version
+ 1100  ls
+ 1101  sudo apt-get -f install
+ 1102  sudo dpkg -i jdk-14.0.1_linux-x64_bin.tar.gz 
+ 1103  cd AutoFirma_Linux/
+ 1104  ls
+ 1105  sudo dpkg -i AutoFirma_1_6_5.deb 
+ 1106  pip install langdetect
+ 1107  pip list
+ 1108  jupyter notebook
+ 1109  pip list
+ 1110  jupyter notebook
+ 1111  cd Documents/autonomo/BBVA/
+ 1112  ls
+ 1113  nano IBAN.txt
+ 1114  conda env list
+ 1115  source activate tf
+ 1116  jupyter notebook
+ 1117  sudo apt upgrade
+ 1118  sudo apt update
+ 1119  sudo lshw -c display
+ 1120  prime-select query
+ 1121  sudo apt upgrade
+ 1122  sudo apt update
+ 1123  jupyter notebook
+ 1124  lsb_release -a
+ 1125  sudo apt-get install dmidecode
+ 1126  sudo dmidecode -t System
+ 1127  sudo dmidecode -t System | grep Product
+ 1128  virtualenv
+ 1129  sudo apt upgrade
+ 1130  sudo apt update
+ 1131  sudo apt-get install zip unzip -y
+ 1132  sudo apt install paprefs
+ 1133  paprefs
+ 1134  pulseaudio -k
+ 1135  pulseaudio -D
+ 1136  sudo pulseaudio -D
+ 1137  sudo pulseaudio --start
+ 1138  sudo pulseaudio -D
+ 1139  start-pulseaudio-x11
+ 1140  sudo pulseaudio --start
+ 1141  sudo apt-get purge pulseaudio
+ 1142  sudo apt-get clean
+ 1143  sudo apt-get remove
+ 1144  rm -r ~/.pulse ~/.asound* ~/.pulse-cookie ~/.config/pulse
+ 1145  sudo reboot
+ 1146  sudo apt-get install pulseaudio pavucontrol
+ 1147  sudo nano /etc/pulse/client.conf
+ 1148  pulseaudio --start
+ 1149  pulseaudio -D
+ 1150  pulseaudio -start
+ 1151  pulseaudio --start
+ 1152  htop
+ 1153  sudo apt install htop
+ 1154  htop
+ 1155  nvidia-smi
+ 1156  htop
+ 1157  pactl list short | grep blue
+ 1158  pactl list short
+ 1159  pactl list short | grep blue
+ 1160  Blueman
+ 1161  sudo etc/init.d/bluetooth start
+ 1162  sudo apt-get purge blueman bluez-utils bluez bluethooth
+ 1163  sudo apt-get install blueman bluez-utils bluez bluetooth
+ 1164  sudo apt-get install blueman bluez:i386 bluez bluetooth
+ 1165  sudo apt-get purge blueman bluez-utils bluez bluethooth
+ 1166  sudo apt-get install blueman bluez:i386 bluetooth
+ 1167  sudo apt-get install pulseaudio-module-bluetooth* ubuntu-desktop* unity-control-center*
+ 1168  sudo /etc/init.d/bluetooth start
+ 1169  sudo apt-get install pulseaudio-module-bluetooth
+ 1170  pactl load-module module-bluetooth-discover
+ 1171  cd repos/
+ 1172  ls
+ 1173  ce game_of_life/
+ 1174  cd game_of_life/
+ 1175  ls
+ 1176  python main.py 
+ 1177  conda env list
+ 1178  source activate tf
+ 1179  python main.py 
+ 1180  source activate tf
+ 1181  jupyter notebook
+ 1182  python main.py 
+ 1183  cd Documents/
+ 1184  ls
+ 1185  cd coding/
+ 1186  ls
+ 1187  git@github.com:jorge236/life.git
+ 1188  git clone git@github.com:jorge236/life.git
+ 1189  ls
+ 1190  cd lfe
+ 1191  cd life
+ 1192  git status
+ 1193  cd ..
+ 1194  rm life/
+ 1195  rm -r life
+ 1196  ls
+ 1197  cd life
+ 1198  mkdir life
+ 1199  cd life
+ 1200  echo "# life" >> README.md
+ 1201  git init
+ 1202  git add README.md 
+ 1203  git commit -m "first commit"
+ 1204  git branch -M master
+ 1205  git remote add origin https://github.com/jorge236/life.git
+ 1206  git push -u origin master
+ 1207  cd ..
+ 1208  rm -r life/
+ 1209  ls
+ 1210  git
+ 1211  conda create -n tf2
+ 1212  source activate tf
+ 1213  source activate tf2
+ 1214  source deactivate
+ 1215  exit
+ 1216  source activate tf2
+ 1217  pip install --upgrade pip
+ 1218  conda install pip
+ 1219  pip install tensorflow
+ 1220  exit
+ 1221  source activate tf
+ 1222  jupyter notebooki
+ 1223  jupyter notebook
+ 1224  git status
+ 1225  git pull
+ 1226  git status
+ 1227  git pull
+ 1228  d
+ 1229  source activate tf2
+ 1230  htop
+ 1231  ls
+ 1232  cd Documents/coding
+ 1233  ls
+ 1234  rm -r life
+ 1235  y
+ 1236  ls
+ 1237  mkdir life
+ 1238  git clone https://github.com/jorge236/life.git
+ 1239  git clone git@github.com:jorge236/life.git
+ 1240  ls
+ 1241  git status
+ 1242  git
+ 1243  git status
+ 1244  ls
+ 1245  cd life
+ 1246  git status
+ 1247  gitp ull
+ 1248  git pull
+ 1249  git status
+ 1250  htop
+ 1251  source activate tf
+ 1252  jupyter notebook
+ 1253  git pull
+ 1254  source activate tf2
+ 1255  conda list
+ 1256  conda env remove -n tf2
+ 1257  conda create -n tf2
+ 1258  conda install pip
+ 1259  pip install tensorflow-gpu==2.2.0
+ 1260  pip uninstall tensorflow-gpu
+ 1261  source activate tf2
+ 1262  conda list
+ 1263  conda install pip
+ 1264  pip install tensorflow-gpu==2.2.0
+ 1265  pip install matplotlib
+ 1266  jupyter notebook
+ 1267  source activate tf
+ 1268  exit
+ 1269  source activate tf
+ 1270  jupyter notebook
+ 1271  exit
+ 1272  source activate tf2
+ 1273  pip install tensorflow_core
+ 1274  pip install tensorflow==2.20
+ 1275  pip install tensorflow==2.2.0
+ 1276  htop
+ 1277  exit
+ 1278  conda env list
+ 1279  conda env remove -n feeds
+ 1280  conda env remove -n precicly
+ 1281  conda env remove -n tf
+ 1282  conda env remove -n tf2
+ 1283  conda env list
+ 1284  conda create -n tf
+ 1285  source activate tf
+ 1286  conda install pip
+ 1287  exit
+ 1288  virtualenv
+ 1289  pip install virtualenv
+ 1290  virtualenv -h
+ 1291  conda env lst
+ 1292  conda env list
+ 1293  source activate tf
+ 1294  pip install tensorflow==2.2.0
+ 1295  conda install pip
+ 1296  pip install tensorflow==2.2.0
+ 1297  pip install matplotlib
+ 1298  pip install jupyter
+ 1299  python -V
+ 1300  exit
+ 1301  conda env remove -n tensorflow
+ 1302  conda env remove -n tf
+ 1303  conda create -n tf
+ 1304  conda install pip
+ 1305  source activate tf
+ 1306  conda install pip
+ 1307  htop
+ 1308  pip install tensorflow_gpu==2.2.0
+ 1309  source activate tf
+ 1310  htop
+ 1311  pip install matplotlib
+ 1312  exit
+ 1313  lsb_release
+ 1314  lsb_release -a
+ 1315  nvidia-smi
+ 1316  sudo apt-get install --no-install-recommends nvidia-driver-430
+ 1317  sudo apt-get install --no-install-recommends cuda-10-1 libcudnn7=7.6.4.38-1+cuda10.1 libcudnn7-dev=7.6.4.38-1+cuda10.1
+ 1318  sudo apt-get install --no-install-recommends     cuda-10-1     libcudnn7=7.6.4.38-1+cuda10.1      libcudnn7-dev=7.6.4.38-1+cuda10.1
+ 1319  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.1.243-1_amd64.deb
+ 1320  sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
+ 1321  sudo dpkg -i cuda-repo-ubuntu1804_10.1.243-1_amd64.deb
+ 1322  sudo apt-get update
+ 1323  wget http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64/nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb
+ 1324  sudo apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb
+ 1325  sudo apt-get update
+ 1326  sudo apt-get install --no-install-recommends nvidia-driver-430
+ 1327  nvidia-smi
+ 1328  sudo apt-get install --no-install-recommends     cuda-10-1     libcudnn7=7.6.4.38-1+cuda10.1      libcudnn7-dev=7.6.4.38-1+cuda10.1
+ 1329  exit
+ 1330  nvidia-smi
+ 1331  nvidia
+ 1332  nvidia-smi
+ 1333  sudo apt-get install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1     libnvinfer-dev=6.0.1-1+cuda10.1     libnvinfer-plugin6=6.0.1-1+cuda10.1
+ 1334  nvidia-smi
+ 1335  exit
+ 1336  source activate tf
+ 1337  conda list
+ 1338  pip install tensorflow==2.2.0
+ 1339  conda install pip
+ 1340  pip install tensorflow==2.2.0
+ 1341  pip install matplotlib
+ 1342  cd Downloads/
+ 1343  ls
+ 1344  . ./NVIDIA-Linux-x86_64-450.51.run 
+ 1345  chmod +x NVIDIA-Linux-x86_64-450.51.run 
+ 1346  ./NVIDIA-Linux-x86_64-450.51.run 
+ 1347  nvidia-smi
+ 1348  htop
+ 1349  conda env remove -n tf
+ 1350  conda create -n tf
+ 1351  conda env list
+ 1352  conda create -n tf
+ 1353  source activate tf
+ 1354  conda install pip
+ 1355  pip install tensorflow==2.2.0
+ 1356  pip install matplotlib
+ 1357  sudo apt-get install --no-install-recommends     cuda-10-1     libcudnn7=7.6.4.38-1+cuda10.1      libcudnn7-dev=7.6.4.38-1+cuda10.1
+ 1358  sudo apt-get install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1     libnvinfer-dev=6.0.1-1+cuda10.1     libnvinfer-plugin6=6.0.1-1+cuda10.1
+ 1359  sudo apt-get install --no-install-recommends nvidia-driver-430
+ 1360  source activate tf
+ 1361  pip install seaborn
+ 1362  pip install scikit-learn
+ 1363  pip install skimage
+ 1364  pip install scikit-image
+ 1365  source activate tf
+ 1366  jupyter notebook
+ 1367  pip install jupyter pandas
+ 1368  jupyter notebook
+ 1369  htop
+ 1370  htop
+ 1371  source activa tf
+ 1372  source activate tf
+ 1373  jupyter notebook
+ 1374  sudo apt upgrade
+ 1375  sudo apt update
+ 1376  reboort
+ 1377  reboot
+ 1378  htop
+ 1379  nvidia-smi
+ 1380  source activate tf
+ 1381  pip list
+ 1382  nvidia-smi
+ 1383  git status
+ 1384  git pull
+ 1385  jupyter notebook
+ 1386  exit
+ 1387  conda install jupyter_contrib_nbextensions
+ 1388  conda install -c conda-forge jupyter_contrib_nbextensions
+ 1389  jupyter notebook
+ 1390  shutdown
+ 1391  sudo add-apt-repository ppa:doctormo/wacom-plus
+ 1392  sudo apt-get update
+ 1393  sudo apt-get dist-upgrade
+ 1394  sudo apt-get install wacom-dkms
+ 1395  sudo apt-get install wacom
+ 1396  sudo apt-get install wacom-dkms
+ 1397  reboot
+ 1398  jupyter notebook
+ 1399  sudo apt-get wakom-dkms
+ 1400  sudo apt-get install wacom-dkms
+ 1401  sudo apt install tor
+ 1402  ss
+ 1403  ss -nlt
+ 1404  ss -nlt
+ 1405  tor --version
+ 1406  wget -q0 - https://api.ipify.org; echo
+ 1407  wget -qO - https://api.ipify.org; echo
+ 1408  wget https://api.ipify.org
+ 1409  ls
+ 1410  wget -  https://api.ipify.org
+ 1411  wget -q  https://api.ipify.org
+ 1412  wget -0  https://api.ipify.org
+ 1413  wget -O  https://api.ipify.org
+ 1414  wget -qO  https://api.ipify.org
+ 1415  wget -qO -  https://api.ipify.org
+ 1416  torsocks wget -qO - https://api.ipify.org; echo
+ 1417  tor
+ 1418  sudo apt-get uninstall tor
+ 1419  sudo apt uninstall tor
+ 1420  sudo apt-get remove tor
+ 1421  wget -qO  https://api.ipify.org
+ 1422  ss -nlt
+ 1423  jupyter notebook
+ 1424  jupyter notebook
+ 1425  cd Downloads/
+ 1426  ls
+ 1427  tar -xzf ./halo.tar.gz -C .
+ 1428  ls
+ 1429  sudo cp -r ./bDMZT/abDMZ/ /usr/share/icons/screencast/
+ 1430  OLD_THEME=$(gsettings get org.gnome.desktop.interface cursor-theme) && echo $OLD_THEME
+ 1431  cd /usr/share/icons
+ 1432  ls
+ 1433  cd DMZ-White/
+ 1434  LS
+ 1435  ls
+ 1436  cd ..
+ 1437  ls
+ 1438  cd screencast/
+ 1439  ls
+ 1440  cd ..
+ 1441  gsettings set org.gnome.desktop.interface cursor-theme DMZ-White
+ 1442  gsettings set org.gnome.desktop.interface cursor-theme screencast
+ 1443  gsettings get org.gnome.desktop.interface cursor-theme
+ 1444  reboot
+ 1445  cd Down
+ 1446  cd Downloads/
+ 1447  tar -xzf ./oreo.tar.gz -C .
+ 1448  cd oreo
+ 1449  ls
+ 1450  cd oreo_spark_pink_cursors/
+ 1451  ls
+ 1452  cd ..
+ 1453  sudo cp -r ./oreo_spark_pink_cursors/ /usr/share/icons/oreo-pink
+ 1454  gsettings set org.gnome.desktop.interface cursor-theme oreo-pink
+ 1455  gsettings get org.gnome.desktop.interface cursor-theme
+ 1456  ls
+ 1457  cd oreo_spark_pink_cursors/
+ 1458  ls
+ 1459  cat index.theme 
+ 1460  sudo update-alternatives --config -x-cursor-thee
+ 1461  sudo update-alternatives --config -x-cursor-theme
+ 1462  exit
+ 1463  sudo update-alternatives --config -x-cursor-theme
+ 1464  sudo update-alternatives --config x-cursor-theme
+ 1465  cd Downloads/
+ 1466  tar -xzf ./red
+ 1467  ls
+ 1468  tar -xzf ./oreo-red.tar.gz -C .
+ 1469  ls
+ 1470  sudo cp oreo_red_cursors/ /usr/share/icons/oreo-red
+ 1471  sudo cp ./oreo_red_cursors/ /usr/share/icons/oreo-red
+ 1472  sudo cp -r ./oreo_red_cursors/ /usr/share/icons/oreo-red
+ 1473  tar -xzf ./oreo-red-spark.tar.gz -C .
+ 1474  sudo cp oreo_spark_red_cursors/ /usr/share/icons/oreo-red
+ 1475  sudo cp -r oreo_spark_red_cursors/ /usr/share/icons/oreo-red-s
+ 1476  jupyter notebook
+ 1477  sudo apt-get install compizconfig-settings-manager compiz-plugins-extra
+ 1478  reboot
+ 1479  glxinfo
+ 1480  jupyter notebook
+ 1481  pip install selenium
+ 1482  pip install pygame
+ 1483  chrome -V
+ 1484  chrome
+ 1485  jupyter notebook
+ 1486  jupyter notebook
+ 1487  jupyter notebook --version
+ 1488  exit
+ 1489  ls
+ 1490  conda install jupyterlab
+ 1491  jupyterlab
+ 1492  jupyter lab
+ 1493  bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+ 1494  ls
+ 1495  cd ironhack/
+ 1496  ls
+ 1497  reboot
+ 1498  ls
+ 1499  cd ironhack/
+ 1500  ls
+ 1501  git@github.com:ironhack-datalabs/dataV2-labs.git
+ 1502  git clone git@github.com:ironhack-datalabs/dataV2-labs.git
+ 1503  jupyter notebook
+ 1504  pip install jupyter-kite
+ 1505  jupyter labextension install "@kiteco/jupyterlab-kite"
+ 1506  jupyter notebook
+ 1507  reboot
+ 1508  git --version
+ 1509  sudo apt upgrade
+ 1510  sudo apt update
+ 1511  exit
+ 1512  git config
+ 1513  git config --global user.name
+ 1514  git config --global user.email
+ 1515  cd
+ 1516  cat .bashrc
+ 1517  cat .bash_profile
+ 1518  cat .bashrc
+ 1519  nano .bashrc
+ 1520  ls
+ 1521  ls --list
+ 1522  ls -la
+ 1523  jupyter notebook
+ 1524  exit
+ 1525  jupyter notebook
+ 1526  find .bash*
+ 1527  find alias
+ 1528  cat .bashrc | find alias
+ 1529  grep "alias" .bashrc
+ 1530  ll
+ 1531  grep "alias" .bashrc
+ 1532  grep -r "alias" .bashrc
+ 1533  clear
+ 1534  grep -r "alias" .bashrc
+ 1535  ls
+ 1536  mkdir pepe; mkdir juan
+ 1537  ls
+ 1538  rmdir juan
+ 1539  rmdir pepe
+ 1540  ls
+ 1541  sudo apt upgrade
+ 1542  sudo apt update
+ 1543  nano .bashrc
+ 1544  alert
+ 1545  nano .bashrc
+ 1546  sudo nano .bashrc
+ 1547  iron
+ 1548  exit
+ 1549  iron
+ 1550  conda create -n ironhack
+ 1551  iron
+ 1552  pwd
+ 1553  sudo nano .bashrc
+ 1554  exit
+ 1555  iron
+ 1556  pwd
+ 1557  sudo nano .bashrc
+ 1558  iron
+ 1559  exit
+ 1560  iron
+ 1561  ls
+ 1562  pip install pandas seaborn
+ 1563  conda install pip
+ 1564  pip install pandas seaborn
+ 1565  pip install jupyter
+ 1566  pip list
+ 1567  pip list | grep matplot
+ 1568  jupyter notebook
+ 1569  pip install jupyter_contrib_nbextensions
+ 1570  jupyter contrib nbextension install --user
+ 1571  jupyter notebook
+ 1572  pip list
+ 1573  iron
+ 1574  dmesg
+ 1575  dmesg | grep "usb 3-8"
+ 1576  dmesg | grep "usb"
+ 1577  dmesg | grep "usb 3-8"
+ 1578  dmesg | grep "usb"
+ 1579  clear
+ 1580  dmesg | grep "usb"
+ 1581  dmesg | grep "Intuos"
+ 1582  sudo apt-get install build-essential autoconf linux-headers-$(uname -r)
+ 1583  ls
+ 1584  mkdir wacom
+ 1585  cd wacom
+ 1586  mkdir dkms
+ 1587  cd ..
+ 1588  ls
+ 1589  cd Downloads/
+ 1590  ls
+ 1591  mv input-wacom-0.46.0.tar.bz2 ../wacom/
+ 1592  ls
+ 1593  cd ..
+ 1594  cd wacom/
+ 1595  tar xjf input-wacom-0.46.0.tar.bz2 
+ 1596  ls
+ 1597  cd /usr/src
+ 1598  sudo ln -s /home/sheriff/wacom/input-wacom-0.46.0
+ 1599  cd
+ 1600  cd wacom/
+ 1601  cd dksm
+ 1602  cd dkms
+ 1603  ls
+ 1604  ln?
+ 1605  man ln
+ 1606  ls
+ 1607  cd ..
+ 1608  ls
+ 1609  rmdir dkms/
+ 1610  ls
+ 1611  cd input-wacom-0.46.0/
+ 1612  ls
+ 1613  if test -x ./autogen.sh; then ./autogen.sh; else ./configure; fi && make && sudo make install || echo "Build Failed"
+ 1614  grep "" /sys/module/wacom*/version
+ 1615  reboot
+ 1616  grep "" /sys/module/wacom*/version
+ 1617  modinfo wacom | grep version
+ 1618  grep "" /sys/module/wacom*/version
+ 1619  dmesg | grep "Intuos"
+ 1620  dmesg | grep "usb"
+ 1621  sudo rmmod wacom
+ 1622  wacom
+ 1623  cd wacom/
+ 1624  sudo sh -c "apt-get update && apt-get install xserver-xorg-input-wacom$(dpkg -S $(which Xorg) | grep -Eo -- "-hwe-[^:]*")"
+ 1625  exit
+ 1626  lshal
+ 1627  sudo apt install lshal
+ 1628  cd wacom
+ 1629  git clone https://github.com/linuxwacom/libwacom.gi
+ 1630  sudo apt-get install build-essential && sudo apt-get build-dep libwacom
+ 1631  sudo apt-get install build-essential libgudev-1.0-dev libxml++2.6-dev
+ 1632  ls
+ 1633  cd libwacom/
+ 1634  ls
+ 1635  meson builddir --prefix=/usr
+ 1636  ninja -C builddir
+ 1637  sudo apt install meson
+ 1638  sudo apt install ninja-build
+ 1639  meson builddir --prefix=/usr
+ 1640  ninja -C builddir
+ 1641  mkdir builddir
+ 1642  meson builddir --prefix=/usr
+ 1643  cd builddir/
+ 1644  cd meson-logs/
+ 1645  cat meson-log.txt 
+ 1646  lsusb
+ 1647  cat .bashrc
+ 1648  cat .bashrc | profile
+ 1649  cat .bashrc | grep profile
+ 1650  spyder
+ 1651  exit
+ 1652  nano .bashrc
+ 1653  cat .bashrc
+ 1654  clear
+ 1655  iron
+ 1656  ls
+ 1657  jupyter notebook
+ 1658  git clone git@github.com:sheriffff/teaching-ironhack-data-madrid-2020.git
+ 1659  ls
+ 1660  cd teaching-ironhack-data-madrid-2020/
+ 1661  ls
+ 1662  git status
+ 1663  nano README.md
+ 1664  cat README.md 
+ 1665  git add .
+ 1666  git status
+ 1667  git commit -m "first commit"
+ 1668  git status
+ 1669  git tree
+ 1670  git log
+ 1671  git log -h
+ 1672  git log --decorate
+ 1673  git mktree
+ 1674  git status
+ 1675  git push
+ 1676  git branch
+ 1677  git branches
+ 1678  git fetch
+ 1679  git branch
+ 1680  git pull
+ 1681  git branch
+ 1682  iron
+ 1683  ls
+ 1684  rmdir teaching-ironhack-data-madrid-2020/
+ 1685  rm -r sheriffff/teaching-ironhack-data-madrid-2020
+ 1686  ls
+ 1687  rm -r teaching-ironhack-data-madrid-2020/
+ 1688  y
+ 1689  ls
+ 1690  git clone git@github.com:sheriffff/teaching-ironhack-data-madrid-2020.git
+ 1691  ls
+ 1692  cd teaching-ironhack-data-madrid-2020/
+ 1693  ls
+ 1694  git status
+ 1695  nano README.md 
+ 1696  ls
+ 1697  ls -la
+ 1698  git status
+ 1699  git add .
+ 1700  git commit -m "first commit"
+ 1701  git push
+ 1702  ls
+ 1703  git pull
+ 1704  ls
+ 1705  git branch
+ 1706  git log
+ 1707  git log --oneline --graph
+ 1708  git log --oneline
+ 1709  git log --oneline --graph
+ 1710  git log --oneline --graph --decorate
+ 1711  git log --h
+ 1712  git log --help
+ 1713  git log -h
+ 1714  ls
+ 1715  mkdir week_01
+ 1716  ls
+ 1717  git status
+ 1718  cd week_01/
+ 1719  ls
+ 1720  touch 01-bash
+ 1721  ls
+ 1722  mv 01-bash 01-bash.ipynbaaa
+ 1723  ls
+ 1724  git status
+ 1725  cd ..
+ 1726  ls
+ 1727  git status
+ 1728  iron
+ 1729  [A
+ 1730  jupyter notebook
+ 1731  man
+ 1732  man man
+ 1733  man pwd
+ 1734  echo "Hola IronHack"
+ 1735  man echo
+ 1736  ls
+ 1737  cd ironhack/
+ 1738  ls
+ 1739  cd zoom
+ 1740  ls
+ 1741  cd ..
+ 1742  ls
+ 1743  pwd
+ 1744  man ls
+ 1745  ls -h
+ 1746  iron
+ 1747  touch pepe.txt
+ 1748  nano pepe.txt 
+ 1749  cat pepe.txt 
+ 1750  wc pepe.txt 
+ 1751  echo "hola" >> pepe.txt 
+ 1752  cat pepe.txt 
+ 1753  echo "hola" > pepe.txt 
+ 1754  cat pepe.txt 
+ 1755  iron
+ 1756  ls -la
+ 1757  cd teac
+ 1758  cd teaching/
+ 1759  ls
+ 1760  python -V
+ 1761  conda list
+ 1762  nano .gitignore
+ 1763  git status
+ 1764  nano .gitignore
+ 1765  git status
+ 1766  nano .gitignore
+ 1767  git status
+ 1768  nautilus ~/ironhack/
+ 1769  7+3
+ 1770  expr 7+6
+ 1771  expr 7 + 6
+ 1772  iron
+ 1773  ls
+ 1774  mkdir manu1
+ 1775  mkdir manu2
+ 1776  mv manu* labs
+ 1777  ls
+ 1778  cd labs
+ 1779  ls
+ 1780  rm manu*
+ 1781  rm -r manu*
+ 1782  cd ..
+ 1783  ls
+ 1784  mv pepe.txt my_file.txt
+ 1785  grep "a" my_file.txt 
+ 1786  cat my_file.txt 
+ 1787  echo "me llamo manuel"
+ 1788  echo "me llamo manuel" >> my_file.txt 
+ 1789  cat my_file.txt 
+ 1790  grep "a" my_file.txt 
+ 1791  nombre = "Manuel"
+ 1792  nombre="Manuel"
+ 1793  $nombre
+ 1794  edad=31
+ 1795  $edad
+ 1796  echo $edad
+ 1797  clear
+ 1798  cd labs/
+ 1799  cd module-1
+ 1800  ls
+ 1801  cd lab-bash/
+ 1802  ls
+ 1803  echo "Hello World"
+ 1804  mkdir new_dir
+ 1805  rm -r new_dir
+ 1806  ls
+ 1807  cp lorem/sed.txt lorem-copy/
+ 1808  ls lorem-copy/
+ 1809  cat lorem/sed.txt 
+ 1810  cat lorem/at.txt 
+ 1811  tail -h
+ 1812  tail --help
+ 1813  tail lorem-copy/sed.txt -n=3
+ 1814  tail lorem-copy/sed.txt -n 3
+ 1815  cd lorem-copy/
+ 1816  ls
+ 1817  echo "Homo homini lupus" >> sed.txt 
+ 1818  tail sed.txt -n 3
+ 1819  $user
+ 1820  cd ..
+ 1821  cd lorem
+ 1822  find *.txt
+ 1823  man vi
+ 1824  vi list_files.sh
+ 1825  cd
+ 1826  iron
+ 1827  cd labs/
+ 1828  ls
+ 1829  cd module-1
+ 1830  ls
+ 1831  cd -
+ 1832  ls
+ 1833  cd ..
+ 1834  cd labs
+ 1835  cd module-1
+ 1836  cd lab-bash/
+ 1837  ls
+ 1838  cd lorem
+ 1839  cd ..
+ 1840  ls
+ 1841  cd lorem
+ 1842  ls
+ 1843  cd ..
+ 1844  ls
+ 1845  touch list_files.sh
+ 1846  ls
+ 1847  bash list_files.sh
+ 1848  nano list_files.sh 
+ 1849  bash list_files.sh
+ 1850  cd lorem
+ 1851  clear
+ 1852  ls
+ 1853  nano word_count.sh
+ 1854  bash word_count.sh 
+ 1855  nano word_count.sh
+ 1856  bash word_count.sh 
+ 1857  nano word_count.sh
+ 1858  bash word_count.sh 
+ 1859  nano word_count.sh
+ 1860  bash word_count.sh 
+ 1861  nano word_count.sh
+ 1862  bash word_count.sh 
+ 1863  nano word_count.sh
+ 1864  bash word_count.sh 
+ 1865  nano word_count.sh
+ 1866  bash word_count.sh 
+ 1867  nano word_count.sh
+ 1868  bash word_count.sh 
+ 1869  nano word_count.sh
+ 1870  bash word_count.sh 
+ 1871  nano word_count.sh
+ 1872  bash word_count.sh 
+ 1873  nano word_count.sh
+ 1874  bash word_count.sh 
+ 1875  nano word_count.sh
+ 1876  bash word_count.sh 
+ 1877  nano word_count.sh
+ 1878  bash word_count.sh 
+ 1879  nano word_count.sh
+ 1880  bash word_count.sh 
+ 1881  nano word_count.sh
+ 1882  bash word_count.sh 
+ 1883  nano word_count.sh
+ 1884  bash word_count.sh 
+ 1885  nano word_count.sh
+ 1886  bash word_count.sh 
+ 1887  nano word_count.sh
+ 1888  bash word_count.sh 
+ 1889  nano word_count.sh
+ 1890  history
+ 1891  edad=31
+ 1892  echo $edad
+ 1893  echo "tengo $edad anos"
+ 1894  cd
+ 1895  cat .bashrc
+ 1896  cd
+ 1897  ls
+ 1898  iron
+ 1899  ls
+ 1900  cd teaching/
+ 1901  ls
+ 1902  cd week_01/
+ 1903  ls
+ 1904  clear
+ 1905  cd
+ 1906  ls
+ 1907  iron
+ 1908  ls
+ 1909  rm my_file.txt 
+ 1910  cd teaching/
+ 1911  git status
+ 1912  git diff
+ 1913  git diff .gitignore
+ 1914  cd week_01/
+ 1915  ls
+ 1916  cd ..
+ 1917  git status
+ 1918  jupyter notebook
+ 1919  exit
+ 1920  iron
+ 1921  jupyter notebook
+ 1922  iron
+ 1923  ls
+ 1924  git clone git@github.com:ironhack-datalabs/datamad1020-rev.git
+ 1925  ;s
+ 1926  ls
+ 1927  mv datamad1020-rev labs
+ 1928  ls
+ 1929  mv teaching-ironhack-data-madrid-2020 teaching
+ 1930  ls
+ 1931  cd labs
+ 1932  ls
+ 1933  cd module-2
+ 1934  find bash
+ 1935  find
+ 1936  grep bash
+ 1937  find | grep bash
+ 1938  mv lab-bash ../module-1
+ 1939  ls
+ 1940  find | grep bash
+ 1941  cd ..
+ 1942  ls
+ 1943  cd module-1
+ 1944  ls
+ 1945  find | grep bash
+ 1946  git status
+ 1947  cd ..
+ 1948  git status
+ 1949  cd labs/
+ 1950  git status
+ 1951  git add .
+ 1952  git commit -m "move lab-bash to module 1"
+ 1953  git push
+ 1954  iron
+ 1955  ls
+ 1956  jupyter notebook
+ 1957  iron
+ 1958  ls
+ 1959  cd teaching/
+ 1960  ls
+ 1961  git status
+ 1962  git add .
+ 1963  git status
+ 1964  git commit -m "bash and jupyter course notebooks + .gitignore"
+ 1965  git pull
+ 1966  git push
+ 1967  git pull
+ 1968  git status
+ 1969  git pull
+ 1970  git status
+ 1971  git reset HEAD module-1/lab-bash/list_files.sh
+ 1972  git status
+ 1973  git reset --hard module-1/lab-bash/list_files.sh
+ 1974  git checkout -- module-1/lab-bash/list_files.sh
+ 1975  git status
+ 1976  git checkout -- module-1/lab-bash/list_files.sh
+ 1977  git clean -n
+ 1978  git clean -f
+ 1979  git status
+ 1980  touch .gitignore
+ 1981  git status
+ 1982  git add *
+ 1983  git status
+ 1984  git add .gitignore 
+ 1985  git status
+ 1986  git commit -m "bash lab edited"
+ 1987  git push
+ 1988  git status
+ 1989  git add .gitignore 
+ 1990  git status
+ 1991  git commit -m "add .idea to .gitignore"
+ 1992  git pull
+ 1993  git push
+ 1994  reboot
+ 1995  jupyter notebook
+ 1996  iron
+ 1997  jupyter notebook
+ 1998  exit
+ 1999  ls
+ 2000  man
+ 2001  man ls
+ 2002  pwd
+ 2003  clear
+ 2004  echo "Hola Ironhack"
+ 2005  cd
+ 2006  pwd
+ 2007  cd ironhack/
+ 2008  ls
+ 2009  ls -l
+ 2010  ls -l -a
+ 2011  clear
+ 2012  lsw
+ 2013  ls
+ 2014  cd teaching/
+ 2015  ls
+ 2016  touch test.txt
+ 2017  ls
+ 2018  echo "Hola amigos"
+ 2019  echo "Hola amigos" >> test.txt
+ 2020  echo " Adios amigos" >> test.txt
+ 2021  cat test.txt 
+ 2022  head test.txt -n 1
+ 2023  nano test.txt 
+ 2024  clear
+ 2025  ls
+ 2026  mv
+ 2027  mv test.txt prueba.txt
+ 2028  ls
+ 2029  cp prueba.txt ../copia.txt
+ 2030  ls
+ 2031  pwd
+ 2032  cd ..
+ 2033  pwd
+ 2034  ls
+ 2035  rm copia.txt 
+ 2036  ls
+ 2037  touch sergio.txt
+ 2038  ls
+ 2039  rm -r sergio.txt 
+ 2040  ls
+ 2041  touch sergio1.txt
+ 2042  touch sergio2.txt 
+ 2043  ls
+ 2044  clear
+ 2045  ls
+ 2046  rm sergio*
+ 2047  ls
+ 2048  cd teaching/
+ 2049  ls
+ 2050  touch pru.txt
+ 2051  find pr*
+ 2052  find *u*
+ 2053  find *e*
+ 2054  ls
+ 2055  rm pru.txt
+ 2056* cat prueba.t
+ 2057  clear
+ 2058  cat prueba.txt 
+ 2059  find amigos
+ 2060  cat prueba.txt 
+ 2061  cat prueba | grep a
+ 2062  cat prueba.txt | grep a
+ 2063  pip list
+ 2064  pip list | grep jupyter
+ 2065  age=31
+ 2066  env="PROD"
+ 2067  $env
+ 2068  echo "My environment is $env"
+ 2069  history
+ 2070  history | tail -l 5
+ 2071  history | tail -n 5
+ 2072  history > history_manuel.txt
