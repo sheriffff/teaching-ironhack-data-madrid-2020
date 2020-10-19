@@ -1,0 +1,20 @@
+ 1898  pwd
+ 1899  clear
+ 1900  echo "Hola Ironhack"
+ 1901  cd
+ 1902  pwd
+ 1903  cd ironhack/
+ 1904  ls
+ 1905  ls -l
+ 1906  ls -l -a
+ 1907  clear
+ 1908  lsw
+ 1909  ls
+ 1910  cd teaching/
+ 1911  ls
+ 1912  touch test.txt
+ 1913  ls
+ 1914  echo "Hola amigos"
+ 1915  echo "Hola amigos" >> test.txt
+ 1916  echo " Adios amigos" >> test.txt
+ 1917  cat test.txt 
