@@ -1,0 +1,145 @@
+ 1891  jupyter notebook
+ 1892  iron
+ 1893  jupyter notebook
+ 1894  exit
+ 1895  ls
+ 1896  man
+ 1897  man ls
+ 1898  pwd
+ 1899  clear
+ 1900  echo "Hola Ironhack"
+ 1901  cd
+ 1902  pwd
+ 1903  cd ironhack/
+ 1904  ls
+ 1905  ls -l
+ 1906  ls -l -a
+ 1907  clear
+ 1908  lsw
+ 1909  ls
+ 1910  cd teaching/
+ 1911  ls
+ 1912  touch test.txt
+ 1913  ls
+ 1914  echo "Hola amigos"
+ 1915  echo "Hola amigos" >> test.txt
+ 1916  echo " Adios amigos" >> test.txt
+ 1917  cat test.txt 
+ 1918  head test.txt -n 1
+ 1919  nano test.txt 
+ 1920  clear
+ 1921  ls
+ 1922  mv
+ 1923  mv test.txt prueba.txt
+ 1924  ls
+ 1925  cp prueba.txt ../copia.txt
+ 1926  ls
+ 1927  pwd
+ 1928  cd ..
+ 1929  pwd
+ 1930  ls
+ 1931  rm copia.txt 
+ 1932  ls
+ 1933  touch sergio.txt
+ 1934  ls
+ 1935  rm -r sergio.txt 
+ 1936  ls
+ 1937  touch sergio1.txt
+ 1938  touch sergio2.txt 
+ 1939  ls
+ 1940  clear
+ 1941  ls
+ 1942  rm sergio*
+ 1943  ls
+ 1944  cd teaching/
+ 1945  ls
+ 1946  touch pru.txt
+ 1947  find pr*
+ 1948  find *u*
+ 1949  find *e*
+ 1950  ls
+ 1951  rm pru.txt
+ 1952  cat prueba.t
+ 1953  clear
+ 1954  cat prueba.txt 
+ 1955  find amigos
+ 1956  cat prueba.txt 
+ 1957  cat prueba | grep a
+ 1958  cat prueba.txt | grep a
+ 1959  pip list
+ 1960  pip list | grep jupyter
+ 1961  age=31
+ 1962  env="PROD"
+ 1963  $env
+ 1964  echo "My environment is $env"
+ 1965  history
+ 1966  history | tail -l 5
+ 1967  history | tail -n 5
+ 1968  history > history_manuel.txt
+ 1969  ls
+ 1970  top
+ 1971  htop
+ 1972  clear
+ 1973  cd
+ 1974  pwd
+ 1975  exit
+ 1976  iron
+ 1977  pwd
+ 1978  nano .bashrc
+ 1979  ls
+ 1980  cd
+ 1981  pwd
+ 1982  find .bash*
+ 1983  nano .bashrc
+ 1984  ls -h
+ 1985  cat --help
+ 1986  man cat
+ 1987  iron
+ 1988  jupyter notebook
+ 1989  exit
+ 1990  iron
+ 1991  cd teaching/
+ 1992  git status
+ 1993  git checkout -- prueba.txt
+ 1994  rm prueba.txt 
+ 1995  git status
+ 1996  git add .
+ 1997  git commit -m "update + history"
+ 1998  git pull
+ 1999  git push
+ 2000  history | tail -n 100
+ 2001  history | tail -n 200 | head -n 10
+ 2002  history | tail -n 150 | head -n 20
+ 2003  history | tail -n 100 | head -n 20
+ 2004  history | tail -n 105 | head -n 20
+ 2005  history | tail -n 115 | head -n 20
+ 2006  iron
+ 2007  ls
+ 2008  cd teac
+ 2009  cd teaching/
+ 2010  cd week_01/
+ 2011  ls
+ 2012  history | tail -n 115 | head -n 20 > history_sheriff_bash_class.txt
+ 2013  cd ..
+ 2014  git status
+ 2015  git add .
+ 2016  git commit -m "add history"
+ 2017  git pull
+ 2018  git push
+ 2019  history | tail -n 115 > history_sheriff_bash_class.txt
+ 2020  git add .
+ 2021  git commit -m "fix history"
+ 2022  git push
+ 2023  git log
+ 2024  git status
+ 2025  ls
+ 2026  cd week_01/
+ 2027  ls
+ 2028  wc history_sheriff_bash_class.txt 
+ 2029  history | tail -n 125 > history_sheriff_bash_class.txt
+ 2030  wc history_sheriff_bash_class.txt 
+ 2031  cat history_sheriff_bash_class.txt 
+ 2032  head history_sheriff_bash_class.txt 
+ 2033  history | tail -n 135 > history_sheriff_bash_class.txt
+ 2034  head history_sheriff_bash_class.txt 
+ 2035  history | tail -n 145 > history_sheriff_bash_class.txt
