@@ -1,4 +1,5 @@
 # Custom
+.DS_Store
 .idea
 00-template.ipynb
 # Byte-compiled / optimized / DLL files
