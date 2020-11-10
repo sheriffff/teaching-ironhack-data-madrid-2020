@@ -1,0 +1,43 @@
+sudo apt upgrade
+sudo apt update
+
+mongo installation ubuntu, following
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+installation mongo
+	wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+	
+	(ubuntu 20.04) echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+	(ubuntu 18.04) echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+	
+	sudo apt-get update
+
+	sudo apt-get install -y mongodb-org
+
+start mongo process (should be run every time you want to use it)
+	sudo systemctl start mongod
+	now it is running on localhost:27017
+
+check mongo process 
+	sudo systemctl status mongod
+
+stop mongo process sudo systemctl stop mongod
+	
+import json to mongo collection (inside some db)	
+	(terminal go to folder where restaurant.json file is)		
+	sudo mongoimport --db ironhack --collection restaurants --file restaurant.json
+	sudo mongoimport --db ironhack --collection countries_small --file countries-small.json
+
+
+
+In python:
+(after pip install pymongo)
+from pymongo import MongoClient
+conn = MongoClient("localhost:27017")
+conn.list_database_names()
+
+db = conn.get_database("ironhack")
+db.list_collection_names()
+
+collection = db.get_collection("restaurants")
+collection.find_one()

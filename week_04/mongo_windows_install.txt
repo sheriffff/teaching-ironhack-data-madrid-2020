@@ -1,0 +1,47 @@
+Descargar Mongo
+
+Install con MongoCompass option al final
+
+abre terminal como admin: tecla windows, escribe cmd, boton derecho, ejecutar como administrador
+cd C:\Program Files\MongoDB\Server\4.4\bin
+mongo.exe
+(check que se abre la consola de mongo)
+exit
+
+crea la carpeta C\data: 
+	cd C:
+	md data
+crea la carpeta C\data\db
+	cd data
+	md db
+
+
+CADA VEZ QUE QUIERA TRABAJAR EN MONGO
+
+levanta una instancia de mongo:
+	cd C:\Program Files\MongoDB\Server\4.4\bin
+	mongod
+	deja la terminal abierta, minimizada
+
+importar colección
+	asegurate que hay una instancia de mongo levantada
+	abre MongoDB Compass
+	conectate a localhost:27017
+	create database: ironhack, collection restaurants
+	ADD DATA: file restaurants.json
+	create database: ironhack, collection countries_small
+	ADD DATA: file countries-small.json
+	
+
+
+In python:
+(after pip install pymongo)
+from pymongo import MongoClient
+conn = MongoClient("localhost:27017")
+conn.list_database_names()
+
+db = conn.get_database("ironhack")
+db.list_collection_names()
+
+collection = db.get_collection("restaurants")
+collection.find_one()
