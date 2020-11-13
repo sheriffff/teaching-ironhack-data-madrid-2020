@@ -2,6 +2,8 @@
 .DS_Store
 .idea
 00-template.ipynb
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
