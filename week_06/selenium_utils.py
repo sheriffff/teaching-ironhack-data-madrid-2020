@@ -4,7 +4,6 @@ from time import sleep
 
 log_errors_file_path = "./errors.txt"
 
-url_ss = "https://w6.seg-social.es/ProsaInternetAnonimo/OnlineAccess?ARQ.SPM.ACTION=LOGIN&ARQ.SPM.APPTYPE=SERVICE&ARQ.IDAPP=XV106001"
 
 def accede_formulario(driver, url):
     driver.get(url)
@@ -13,15 +12,15 @@ def accede_formulario(driver, url):
     sleep(1)
     
 def rellena_campos(driver):
-    driver.find_element_by_name("nombreApellidos").send_keys("MARIA DEL ROSARIO RODRIGUEZ SANCHEZ")
+    driver.find_element_by_name("nombreApellidos").send_keys("PEDRO RAMÍREZ")
 
     driver.find_element_by_name("tipo").send_keys("N")
 
-    driver.find_element_by_name("numeroDocumento").send_keys("35277683F")
+    driver.find_element_by_name("numeroDocumento").send_keys("12345678A")
 
-    driver.find_element_by_name("telefono").send_keys("609372301")
+    driver.find_element_by_name("telefono").send_keys("602345678")
 
-    driver.find_element_by_name("eMail").send_keys("charor55@gmail.com")
+    driver.find_element_by_name("eMail").send_keys("pedrito69tkm@gmail.com")
 
     driver.find_element_by_id("radioProvincia").click()
 
